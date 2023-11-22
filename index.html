@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <script type="module" src="./src/assets/js/app.js"></script>
+    <link rel="shortcut icon" href="https://i.pinimg.com/236x/aa/3b/46/aa3b46bec6195177a84478a520d9453c.jpg" type="image/x-icon">
+    <title>Product Store</title>
+</head>
+<body>
+    <h1>Loja Online</h1>
+    <form action="" id="product_form">
+        <div class="form-inputs">
+            <label for="description">Descrição:</label>
+            <input type="text" name="description" id="description" required>
+        </div>
+        <div class="form-inputs">
+            <label for="price_unity">Preço Unitário:</label>
+            <input type="text" name="price_unity" id="price_unity" required>
+        </div>
+        <div class="form-inputs">
+            <label for="quantity">Quantidade</label>
+            <input type="number" name="quantity" id="quantity" required>
+        </div>
+        <button type="submit">Adicionar</button>
+    </form>
+    <table id="product_list">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Descrição</th>
+                <th>Preço Unitário</th>
+                <th>Quantidade</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</body>
+</html>

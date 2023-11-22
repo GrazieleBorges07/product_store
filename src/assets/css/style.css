@@ -1,0 +1,102 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    background-color: #ebebe0;
+}
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+form{
+    max-width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #009900;
+    color:#fff;
+    border-radius: 5px;
+    max-width: 40%;
+    padding: 10px;
+    transition: 0.4s;
+    font-weight: bold;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+table{
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    align-items: center;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+
+th{
+    padding: 10px;
+    text-align: center;
+    background-color:#009900;
+    border-radius: 1px;
+    color: #fff;
+}
+
+tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+
+tr:hover{
+    background-color: #f1f1f1;
+}
+
+td:last-child button{
+    margin-left: 5px;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+}
+
+#actions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#actions button{
+    background-color: #0000b3;
+}
+
+#actions button:last-child{
+    background-color: red;
+}
